@@ -36,19 +36,25 @@ How does everything tie into smart contracts?
 - What happens if a validator doesn't attest or propose?
 - How can a validator get paid?
 
-#####
+##### Short-form answers
 
-- Divided into committees
-- Validator do not need to attest to every block, will be selected
-- Proposer is random
-- 
+- Deposit 32 ETH
+- Not really, depends on which block is chosen (randomly)
+- Same, is random
+- umm 1 second, 12 seconds and after that have some buffer time, then get penalized
+- Written below, have to submit many stuff
+- Wait for finalization after 1+ epoch
+- Will get penalized
+- If he does everything right, attest,propose,sync and on time. More below
+
+##### Random facts
 
 - 1 epoch is 32 slots (~6.4 minutes)
 - Checkpoint block (start of every epoch)
 - Proposed - Justified - Finalized (total time to finalization ~15 mins (1 epoch after))
 - A block is only finalized when it is after a justified block
 
-Interesting to note: 
+Interesting to note: notice that finalization takes about 15 minutes but Metamask transactions on ETH takes about 10 seconds-ish? Because these transactions are in the "Justified" stage, they are not finalized yet but more-or-less confirmed. Finalization takes place after 1 epoch, and is counted from checkpoint block to checkpoint block, so about 15 minutes (current epoch - next epoch - next epoch)
 
 ##### Proposed Rewards Breakdown
 
