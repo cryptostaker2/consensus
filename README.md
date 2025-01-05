@@ -1,8 +1,12 @@
 # Unedited learning, WIP
 
-I want to find some bugs. 
+learn with me 
 
-Start: how does one even start understanding all this?
+unedited version, just note taking, will consider making an official version if all goes well.
+
+From someone with extremely little knowledge of what's happening under the hood. Also no tech background whatsoever. I audit smart contracts though.
+
+Current understanding level: close to zero
 End goal: testing the consensus and execution layer and hoping to find some bugs
 
 What is a consensus?
@@ -114,4 +118,10 @@ Equivocation, Attestation, Epoch, Justified, Finalize:
 #### Penalties and Rewards calculation
 1. [Ethereum Website](https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/rewards-and-penalties/)
 
-2. 
+
+
+
+Some Cool Stuff
+
+##### History
+- https://ethereum.org/en/history/#dao-fork-summary
